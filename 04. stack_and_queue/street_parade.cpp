@@ -1,124 +1,77 @@
-#include <iostream>
-#include <string>
-#include <vector>
-#include <stack>
-#include <queue>
-#include <limits>
-#include <sstream>
+#include <bits/stdc++.h>
 using namespace std;
 
-string streetParade(queue<int> mobiles, int N) {
-    stack<int> S;
-    queue<int> result;
+int main() {
+    freopen("input.txt", "r", stdin);
+    int N, a;
+    queue<int> mobileList;
+    stack<int> sideStreet;
+    vector<int> sorted_mobileList;
+    vector<int> result;
 
-    while (!mobiles.empty())
+    while (true)
     {
-        int currentMobile = mobiles.front();
-        mobiles.pop();
-
-        if (!mobiles.empty()) {
-            int previousMobile = mobiles.front();
-            
-            if (currentMobile > previousMobile) {
-                if (S.empty()) {
-                    S.push(currentMobile);
-                } else {
-                    if (currentMobile < S.top()) {
-                        S.push(currentMobile);
-                    } else {
-                        return "no";
-                    }
-                }
-            } else {
-                if (S.empty()) {
-                    result.push(currentMobile);
-                } else {
-                    if (currentMobile < S.top()) {
-                        result.push(currentMobile);
-                    } else {
-                        return "no";
-                    }
-                }
-            }
-        } else {
-            if (S.empty()) {
-                result.push(currentMobile);
-            } else {
-                if (currentMobile < S.top()) {
-                    result.push(currentMobile);
-                } else {
-                    return "no";
-                }
-            }
-        }
-    }
-
-    while (!S.empty())
-    {
-        result.push(S.top());
-        S.pop();
-    }
-    
-
-    if (result.size() == N) {
-        return "yes";
-    } else {
-        return "no";
-    }
-}
-
-void readInput(queue<int> &Ns, queue<string> &mobiles) {
-    int N;
-    string line;
-
-    while (1) {
         cin >> N;
         if (N == 0) {
-            return;
+            break;
         }
 
-        cin.ignore(numeric_limits<streamsize>::max(), '\n'); // clear buffer
+        sorted_mobileList.clear();
+        result.clear();
 
-        getline(cin, line);
-
-        Ns.push(N);
-        mobiles.push(line);
-    }
-}
-
-int main() 
-{
-    queue<int> Ns;
-    queue<string> mobileList;
-    queue<string> result;
-
-    readInput(Ns, mobileList);
-
-    while (!mobileList.empty())
-    {
-        queue<int> mobiles;
-        string number;
-        stringstream ss(mobileList.front());
-        mobileList.pop();
-
-        while (getline(ss, number, ' '))
+        for (int i = 0; i < N; i++)
         {
-            mobiles.push(stoi(number));
+            cin >> a;
+            mobileList.push(a);
+            sorted_mobileList.push_back(a);
+        }
+        
+        sort(sorted_mobileList.begin(), sorted_mobileList.end()); // ascending
+
+        while (!mobileList.empty())
+        {
+            int front = mobileList.front();
+
+            if (sideStreet.empty()) {
+                sideStreet.push(front);
+                mobileList.pop();
+            } else {
+                int top = sideStreet.top();
+                if (front > top) {
+                    result.push_back(top);
+                    sideStreet.pop();
+                } else {
+                    sideStreet.push(front);
+                    mobileList.pop();
+                }
+            }
         }
 
-        string temp = streetParade(mobiles, Ns.front());
-        Ns.pop();
+        while (!sideStreet.empty())
+        {
+            int top = sideStreet.top();
+            sideStreet.pop();
 
-        result.push(temp);
+            result.push_back(top);
+        }
+        
+        bool temp = true;
+        for (int i = 0; i < N; i++)
+        {
+            if (result[i] != sorted_mobileList[i]) {
+                temp = false;
+                break;
+            }
+        }
+
+        if (temp) {
+            cout << "yes";
+        } else {
+            cout << "no";
+        }
+
+        cout << endl;
     }
-
-    while (!result.empty())
-    {
-        cout << result.front() << endl;
-        result.pop();
-    }
-
-    cout << endl;
+    
     return 0;
 }
-
