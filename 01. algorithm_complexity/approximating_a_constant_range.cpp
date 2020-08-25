@@ -1,3 +1,6 @@
+// Problem: Approximating a Constant Range
+// Link: https://codeforces.com/problemset/problem/602/B
+
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,3 +1,6 @@
+// Problem: B. Wrath
+// Link: https://codeforces.com/problemset/problem/892/B
+
 #include <bits/stdc++.h>
 using namespace std;
 

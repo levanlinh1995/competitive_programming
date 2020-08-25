@@ -1,3 +1,6 @@
+// Problem: B. Books
+// Link: https://codeforces.com/problemset/problem/279/B
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

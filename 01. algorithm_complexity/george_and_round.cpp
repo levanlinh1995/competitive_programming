@@ -1,3 +1,6 @@
+// Problem: B. George and Round
+// Link: https://codeforces.com/problemset/problem/387/B
+
 #include <iostream>
 #include <vector>
 using namespace std;

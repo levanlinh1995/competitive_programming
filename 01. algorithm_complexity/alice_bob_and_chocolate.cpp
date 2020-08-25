@@ -1,3 +1,6 @@
+// Problem: Alice Bob and Chocolate
+// Link: https://codeforces.com/problemset/problem/6/C
+
 #include <bits/stdc++.h>
 using namespace std;
 

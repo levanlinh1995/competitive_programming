@@ -1,3 +1,6 @@
+// Problem: B.Array
+// Link: https://codeforces.com/problemset/problem/224/B
+
 #include <iostream>
 #include <vector>
 #include <unordered_map>
