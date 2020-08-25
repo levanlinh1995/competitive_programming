@@ -1,3 +1,6 @@
+// Problem: ONP - Transform the Expression
+// Link: https://www.spoj.com/problems/ONP/
+
 #include <iostream>
 #include <string>
 #include <vector>

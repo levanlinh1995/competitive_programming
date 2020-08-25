@@ -1,3 +1,6 @@
+// Problem: 10611 - The Playboy Chimp
+// Link: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=316&page=show_problem&problem=1552
+
 #include <iostream>
 #include <vector>
 using namespace std;

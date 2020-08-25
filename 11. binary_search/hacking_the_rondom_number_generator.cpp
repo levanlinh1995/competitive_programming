@@ -1,3 +1,7 @@
+ 
+// Problem: HACKRNDM - Hacking the random number generator
+// Link: https://www.spoj.com/problems/HACKRNDM/
+
 // Method: 1
 #include <iostream>
 #include <vector>

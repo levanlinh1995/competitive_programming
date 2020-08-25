@@ -1,3 +1,6 @@
+// Problem: A. Chores
+// Link: http://codeforces.com/problemset/problem/169/A
+
 #include <bits/stdc++.h>
 using namespace std;
 

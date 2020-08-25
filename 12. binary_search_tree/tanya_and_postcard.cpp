@@ -1,3 +1,7 @@
+ 
+// Problem: B. Tanya and Postcard
+// Link: https://codeforces.com/contest/518/problem/B
+
 #include <bits/stdc++.h>
 using namespace std;
 

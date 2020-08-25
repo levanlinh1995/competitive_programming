@@ -1,3 +1,6 @@
+// Problem: Bishu and his Girlfriend
+// Link: https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/practice-problems/algorithm/bishu-and-his-girlfriend/
+
 #include <iostream>
 #include <string>
 #include <queue>

@@ -1,3 +1,7 @@
+ 
+// Problem: Monk and Multiplication
+// Link: https://www.hackerearth.com/practice/data-structures/trees/heapspriority-queues/practice-problems/algorithm/monk-and-multiplication/
+
 #include <iostream>
 #include <vector>
 #include <queue>

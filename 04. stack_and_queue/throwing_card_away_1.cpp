@@ -1,3 +1,6 @@
+// Problem: 10935 - Throwing cards away I
+// Link: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1876
+
 #include <bits/stdc++.h>
 using namespace std;
 

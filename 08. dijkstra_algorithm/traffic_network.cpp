@@ -1,3 +1,6 @@
+// Problem: TRAFFICN - Traffic Network
+// Link: https://www.spoj.com/problems/TRAFFICN/en/
+
 #include <iostream>
 #include <vector>
 #include <queue>

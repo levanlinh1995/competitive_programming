@@ -1,3 +1,7 @@
+/ Problem: Search Engine
+// Link: https://www.hackerearth.com/practice/data-structures/advanced-data-structures/trie-keyword-tree/practice-problems/algorithm/search-engine/?fbclid=IwAR0h_gLNfeHAz4w1c9KRRoAU6OFfln-p-urZCilCsK_vvUqF1ZGhVw4Q5vM
+
+
 #include <iostream>
 using namespace std;
 

@@ -1,3 +1,6 @@
+// Prolem: DNA Prefix
+// Link: https://vjudge.net/problem/LightOJ-1224
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

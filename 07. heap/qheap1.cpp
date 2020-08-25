@@ -1,3 +1,6 @@
+// Problem: QHEAP1
+// Link: https://www.hackerrank.com/challenges/qheap1/problem
+
 #include <iostream>
 #include <vector>
 #include <functional>

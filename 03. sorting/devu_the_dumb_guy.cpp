@@ -1,3 +1,6 @@
+// Problem: B. Devu, the Dumb Guy
+// Link: http://codeforces.com/problemset/problem/439/B
+
 #include <bits/stdc++.h>
 using namespace std;
 

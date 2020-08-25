@@ -1,3 +1,7 @@
+ 
+// Problem: 10474 - Where is the Marble?
+// Link: https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1415
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

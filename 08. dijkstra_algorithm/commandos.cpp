@@ -1,3 +1,7 @@
+ 
+// Problem: 1174 - Commandos
+// Link: http://lightoj.com/volume_showproblem.php?problem=1174
+
 #include <iostream>
 #include <vector>
 #include <queue>

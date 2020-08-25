@@ -1,3 +1,6 @@
+// Problem: 10226 - Hardwood Species
+// Link: https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1167
+
 #include <iostream>
 #include <map>
 #include <iomanip>

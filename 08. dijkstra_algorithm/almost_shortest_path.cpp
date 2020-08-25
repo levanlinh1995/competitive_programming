@@ -1,3 +1,5 @@
+// Link: https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=3296
+
 #include <iostream>
 #include <vector>
 #include <queue>

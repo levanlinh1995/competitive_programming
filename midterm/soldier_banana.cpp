@@ -1,3 +1,6 @@
+// problem: soldier and banana
+// link: https://codeforces.com/problemset/problem/546/A
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

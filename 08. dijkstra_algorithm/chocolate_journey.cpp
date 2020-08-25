@@ -1,3 +1,6 @@
+// Problem: Chocolate Journey
+// Link: https://www.hackerearth.com/practice/algorithms/graphs/shortest-path-algorithms/practice-problems/algorithm/successful-marathon-0691ec04/
+
 #include <iostream>
 #include <vector>
 #include <queue>

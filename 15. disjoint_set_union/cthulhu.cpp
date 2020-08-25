@@ -1,3 +1,6 @@
+// Problem: Cthulhu
+// Link: https://codeforces.com/problemset/problem/104/C
+
 #include <bits/stdc++.h>
 using namespace std;
 

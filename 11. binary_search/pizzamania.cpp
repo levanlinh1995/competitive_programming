@@ -1,3 +1,6 @@
+// Solution: OPCPIZZA - Pizzamania
+// Link: https://www.spoj.com/problems/OPCPIZZA
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

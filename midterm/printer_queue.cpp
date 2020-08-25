@@ -1,3 +1,6 @@
+// problem: printer queue
+// link: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3252
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

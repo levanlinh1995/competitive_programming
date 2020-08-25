@@ -1,3 +1,7 @@
+ 
+// Solution: 1074 - Extended Traffic
+// Link: http://lightoj.com/volume_showproblem.php?problem=1074
+
 #include <iostream>
 #include <vector>
 #include <math.h>

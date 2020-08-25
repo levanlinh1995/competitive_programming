@@ -1,3 +1,6 @@
+// Problem: EKO - Eko
+// Link: https://www.spoj.com/problems/EKO/
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

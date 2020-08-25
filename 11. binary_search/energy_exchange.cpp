@@ -1,3 +1,6 @@
+// Problem: B. Energy exchange
+// Link: https://codeforces.com/problemset/problem/68/B
+
 #include <iostream>
 #include <vector>
 #include <iomanip>

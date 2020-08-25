@@ -1,3 +1,6 @@
+// Problem: 1837. Isenbaev's Number
+// Link: http://acm.timus.ru/problem.aspx?space=1&num=1837
+
 #include <iostream>
 #include <map>
 #include <vector>

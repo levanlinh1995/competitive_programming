@@ -1,3 +1,7 @@
+
+// Problem: MST - Minimum Spanning Tree
+// Link: https://www.spoj.com/problems/MST/
+
 #include <bits/stdc++.h>
 using namespace std;
 

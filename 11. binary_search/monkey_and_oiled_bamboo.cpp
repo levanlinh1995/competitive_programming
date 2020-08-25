@@ -1,3 +1,6 @@
+// Problem: Monkey and the Oiled Bamboo
+// Link: https://onlinejudge.org/index.php?option=onlinejudge&Itemid=8&page=show_problem&problem=3183
+
 #include <iostream>
 #include <vector>
 using namespace std;

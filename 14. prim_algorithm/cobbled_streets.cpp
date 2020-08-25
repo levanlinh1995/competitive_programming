@@ -1,3 +1,6 @@
+// Problem: Cobbled streets
+// Link: https://www.spoj.com/problems/CSTREET/#:~:text=The%20municipal%20chronicals%20of%20an,all%20towns%20in%20his%20kingdom.
+
 #include <bits/stdc++.h>
 using namespace std;
 

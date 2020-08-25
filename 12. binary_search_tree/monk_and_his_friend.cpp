@@ -1,3 +1,6 @@
+// Problem: Monk and his Friends
+// Link: https://www.hackerearth.com/practice/data-structures/trees/binary-search-tree/practice-problems/algorithm/monk-and-his-friends/
+
 #include <iostream>
 #include <unordered_set>
 using namespace std;

@@ -1,3 +1,6 @@
+// Problem: Compilers and parsers
+// Link: https://www.codechef.com/MAY14/problems/COMPILER
+
 #include <iostream>
 #include <string>
 #include <vector>

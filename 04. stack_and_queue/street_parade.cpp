@@ -1,3 +1,6 @@
+// Problem: STPAR - Street Parade
+// Link: https://www.spoj.com/problems/STPAR/
+
 #include <bits/stdc++.h>
 using namespace std;
 

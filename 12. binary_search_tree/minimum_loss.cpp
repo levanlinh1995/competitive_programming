@@ -1,3 +1,6 @@
+// Problem: Minimum Loss
+// Link: https://www.hackerrank.com/challenges/minimum-loss/problem
+
 #include <iostream>
 #include <set>
 using namespace std;

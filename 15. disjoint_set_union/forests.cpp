@@ -1,3 +1,6 @@
+// Problem: 10227 Forests
+// Link: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1168
+
 #include <bits/stdc++.h>
 using namespace std;
 

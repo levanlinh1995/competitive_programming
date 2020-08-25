@@ -1,3 +1,6 @@
+// Problem: LASTSHOT - THE LAST SHOT
+// Link: https://www.spoj.com/problems/LASTSHOT/
+
 #include <iostream>
 #include <string>
 #include <queue>

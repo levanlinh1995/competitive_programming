@@ -1,3 +1,6 @@
+// Problem: CAM5 - prayatna PR
+// Link: https://www.spoj.com/problems/CAM5
+
 #include <iostream>
 #include <string>
 #include <queue>

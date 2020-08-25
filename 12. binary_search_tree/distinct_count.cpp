@@ -1,3 +1,6 @@
+// Problem: Distinct Count
+// Link: https://www.hackerearth.com/practice/data-structures/trees/binary-search-tree/practice-problems/algorithm/distinct-count/#:~:text=All%20Tracks%20Data%20Structures%20Trees%20Binary%20Search%20Tree%20Problem&text=Given%20an%20array%20A%20of,more%20than%20X%20distinct%20integers.
+
 // Method 1: NLogN
 #include <iostream>
 #include <algorithm>

@@ -1,3 +1,6 @@
+// Solution: 558 - Wormholes
+// Link: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=499
+
 #include <vector>
 #include <iostream>
 using namespace std;

@@ -1,3 +1,7 @@
+
+// Problem: SHPATH - The Shortest Path
+// Link: https://www.spoj.com/problems/SHPATH/en/
+
 #include <iostream>
 #include <vector>
 #include <queue>

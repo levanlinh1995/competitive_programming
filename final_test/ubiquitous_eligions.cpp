@@ -1,3 +1,6 @@
+// problem: Ubiquitous Religions
+// Link: https://onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1524
+
 #include <bits/stdc++.h>
 using namespace std;
 

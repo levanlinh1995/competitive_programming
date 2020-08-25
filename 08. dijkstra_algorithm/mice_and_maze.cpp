@@ -1,3 +1,6 @@
+// Problem: MICEMAZE - Mice and Maze
+// Link: https://www.spoj.com/problems/MICEMAZE/
+
 #include <iostream>
 #include <vector>
 #include <queue>

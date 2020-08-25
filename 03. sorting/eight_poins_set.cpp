@@ -1,3 +1,6 @@
+// Problem: B. Eight Point Sets
+// Link: https://codeforces.com/contest/334/problem/B
+
 #include <bits/stdc++.h>
 using namespace std;
 

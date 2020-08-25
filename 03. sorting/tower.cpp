@@ -1,3 +1,6 @@
+// Problem: Towers
+// Link: https://codeforces.com/problemset/problem/37/A
+
 #include <bits/stdc++.h>
 
 using namespace std;

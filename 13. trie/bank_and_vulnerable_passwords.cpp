@@ -1,3 +1,6 @@
+// Problem: Bank and vulnerable passwords
+// Link: https://www.codechef.com/DMNT2015/problems/BANKPASS
+
 #include <bits/stdc++.h>
 using namespace std;
 
