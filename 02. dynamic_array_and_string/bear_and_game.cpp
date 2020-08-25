@@ -1,3 +1,6 @@
+// Problem:	A. Bear and Game
+// Link: http://codeforces.com/problemset/problem/673/A
+
 #include <iostream>
 using namespace std;
 
