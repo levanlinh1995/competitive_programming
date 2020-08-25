@@ -1,3 +1,6 @@
+// Problem: A. Night at the Museum
+// Link: http://codeforces.com/contest/731/problem/A
+
 #include <iostream>
 #include <string>
 using namespace std;
