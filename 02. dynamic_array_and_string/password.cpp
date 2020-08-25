@@ -1,3 +1,6 @@
+// Problem: B. Passwords
+// Link: https://codeforces.com/problemset/problem/721/B
+
 #include <iostream>
 #include <vector>
 #include <string>

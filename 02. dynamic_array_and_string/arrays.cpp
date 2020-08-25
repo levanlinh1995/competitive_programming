@@ -1,3 +1,6 @@
+// Problem: A. Arrays
+// Link: https://codeforces.com/problemset/problem/572/A
+
 #include <iostream>
 #include <string>
 #include <vector>

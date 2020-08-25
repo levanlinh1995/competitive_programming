@@ -1,3 +1,6 @@
+// Problem: B. Suffix Structures
+// Link: https://codeforces.com/problemset/problem/448/B
+
 #include <iostream>
 #include <string>
 using namespace std;
