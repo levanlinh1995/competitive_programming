@@ -1,3 +1,6 @@
+// Problem: A. Vitaly and Strings
+// Link: http://codeforces.com/problemset/problem/518/A
+
 #include <iostream>
 #include <string>
 using namespace std;
