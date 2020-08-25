@@ -1,3 +1,6 @@
+// Problem: B. Big Segment
+// Link: http://codeforces.com/problemset/problem/242/B
+
 #include <iostream>
 #include <string>
 #include <vector>
