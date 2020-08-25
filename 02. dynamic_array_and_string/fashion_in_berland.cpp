@@ -1,3 +1,6 @@
+// Problem: A. Fashion in Berland
+// Link: http://codeforces.com/contest/691/problem/A
+
 #include <iostream>
 using namespace std;
 
