@@ -3,36 +3,50 @@
 #include <list>
 using namespace std;
 
+template<typename K>
 class Hash {
     int bucket;
-    vector<list<int>> table;
+    vector<list<K>> table;
 
 public:
     Hash(int bucket);
 
-    int hashFunction(int key);
-    void deleteItem(int key);
-    void insertItem(int key);
+    int hashFunction(K key);
+    void deleteItem(K key);
+    void insertItem(K key);
     void displayHash();
 };
 
-Hash::Hash(int bucket) {
+template<typename K>
+Hash<K>::Hash(int bucket) {
     this->bucket = bucket;
     table.resize(bucket);
 }
 
-int Hash::hashFunction(int key) {
+template<typename K>
+int Hash<K>::hashFunction(K key) {
     return (key % this->bucket);
 }
 
-void Hash::insertItem(int key) {
+template<typename K>
+void Hash<K>::insertItem(K key) {
     int index = this->hashFunction(key);
+
+    typename list<K>::iterator it;
+    for (it = table[index].begin(); it != table[index].end(); it++)
+    {
+        if (*it == key) {
+            return;
+        }
+    }
+
     this->table[index].push_back(key);
 }
 
-void Hash::deleteItem(int key) {
+template<typename K>
+void Hash<K>::deleteItem(K key) {
     int index = this->hashFunction(key);
-    list<int>::iterator it;
+    typename list<K>::iterator it;
     for (it = table[index].begin(); it != table[index].end(); it++)
     {
         if (*it == key) {
@@ -45,7 +59,8 @@ void Hash::deleteItem(int key) {
     }
 }
 
-void Hash::displayHash() {
+template<typename K>
+void Hash<K>::displayHash() {
     for (int i = 0; i < this->bucket; i++)
     {
         cout << i << "-->";
@@ -59,8 +74,8 @@ void Hash::displayHash() {
 }
 
 int main() {
-    vector<int> arr = {15, 11, 27, 8, 12};
-    Hash* hash = new Hash(7);
+    vector<int> arr = {15, 11, 27, 8, 12, 11};
+    Hash<int>* hash = new Hash<int>(7);
 
     for(int x : arr) {
         hash->insertItem(x);
