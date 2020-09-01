@@ -36,7 +36,7 @@ public:
     //     return false;
     // }
 
-    // method 1: time complexity O(n), space complexity O(1)
+    // method 2: time complexity O(n), space complexity O(1)
     bool hasCycle(ListNode* head) {
         if (!head) {
             return false;
