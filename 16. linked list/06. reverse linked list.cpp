@@ -12,41 +12,43 @@ struct ListNode {
 class Solution {
 public:
     // method1:
+    ListNode* reverseList(ListNode* head) {
+        ListNode* prev = NULL;
+        ListNode* curr = head;
+        ListNode* next;
+
+        while (curr != NULL)
+        {
+            next = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = next;
+        }
+        
+
+        return prev;
+    }
+
+    // method2: recursive
     // ListNode* reverseList(ListNode* head) {
-    //     ListNode* originalNode = head;
+    //     head = recursive(head, head);
+
+    //     return head;
+    // }
+
+    // ListNode* recursive(ListNode* head, ListNode* originalNode) {
     //     ListNode* temp;
 
-    //     while (originalNode != NULL && originalNode->next != NULL)
+    //     if (originalNode != NULL && originalNode->next != NULL)
     //     {
     //         temp = originalNode->next;
     //         originalNode->next = originalNode->next->next;
     //         temp->next = head; 
     //         head = temp;
+
+    //         head = recursive(head, originalNode);
     //     }
 
     //     return head;
     // }
-
-    // method2: recursive
-    ListNode* reverseList(ListNode* head) {
-        head = recursive(head, head);
-
-        return head;
-    }
-
-    ListNode* recursive(ListNode* head, ListNode* originalNode) {
-        ListNode* temp;
-
-        if (originalNode != NULL && originalNode->next != NULL)
-        {
-            temp = originalNode->next;
-            originalNode->next = originalNode->next->next;
-            temp->next = head; 
-            head = temp;
-
-            head = recursive(head, originalNode);
-        }
-
-        return head;
-    }
 };
